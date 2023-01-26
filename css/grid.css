@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(40px, auto);
+    grid-gap: 3px;
+    grid-auto-flow: dense;
+  }
+
+  .header {
+    grid-column: 1 / 4;
+  }
+
+  .navbutt {
+    grid-column: 4 / -1;
+  }
+
+  .senaste, .meny, .open {
+    grid-column: 1 / -1;
+  }
