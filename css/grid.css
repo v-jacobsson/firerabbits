@@ -7,13 +7,13 @@
   }
 
   .header {
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
   }
 
   .navbutt {
-    grid-column: 4 / -1;
+    grid-column: 1 / -1;
   }
 
-  .senaste, .meny, .open {
+  .senaste, .meny, .open, .footer, .catdrop, h3 {
     grid-column: 1 / -1;
   }

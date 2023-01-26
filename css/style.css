@@ -1,0 +1,28 @@
+*{padding: 0; margin: 0;} 
+
+/* Nav */
+.dropdown-content {
+    display: none; }
+
+.show {display:block;}
+
+/*meny nav*/
+.catdrop {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .catdrop-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    overflow: auto;
+  }
+  
+  .catdrop:hover .catdrop-content {
+    display: block;
+  }
+  
