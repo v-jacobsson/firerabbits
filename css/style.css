@@ -1,10 +1,29 @@
-*{padding: 0; margin: 0;} 
+/*colors
+  background-blue #caf0f8
+  special-area-yellow #FFC300
+  text-blood-red #6B0504 
+*/
+
+*{
+  padding: 0; 
+  margin: 0;
+  background-color: #caf0f8;
+} 
 
 /* Nav */
 .dropdown-content {
-    display: none; }
+    display: none; 
+    border: 5px solid #6B0504;
+  }
 
 .show {display:block;}
+
+.navc, .nap {
+  background-color: #FFC300;
+  padding-left: 5px;
+}
+
+
 
 /*meny nav*/
 .catdrop {
@@ -24,5 +43,41 @@
   
   .catdrop:hover .catdrop-content {
     display: block;
+    text-align: center;
+    background-color: #FFC300;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
   
+  /* MENK - menu items */
+
+  .menk {
+    text-align: center;
+    color: #6B0504;
+    border-top: 2px solid #6B0504;
+  }
+    /*li text color*/
+  .menk li {
+    color: black;
+  }
+
+  /*footer*/
+
+  .footer {
+    border-top: 2px solid #6B0504;
+  }
+
+  img {
+    size: 100%;
+  }
+
+  h2 {
+    text-align: center;
+  }

@@ -6,14 +6,8 @@
     grid-auto-flow: dense;
   }
 
-  .header {
+  .header, .navbutt, .dropdown, .senaste, .meny, .open, .footer, .catdrop, h3, .menk, img, h2, .slideshow-container {
     grid-column: 1 / -1;
   }
 
-  .navbutt {
-    grid-column: 1 / -1;
-  }
-
-  .senaste, .meny, .open, .footer, .catdrop, h3 {
-    grid-column: 1 / -1;
-  }
+  
