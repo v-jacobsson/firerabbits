@@ -68,6 +68,10 @@
     color: black;
   }
 
+  .menu {
+    text-decoration: underline;
+  }
+
   /*footer*/
 
   .footer {
