@@ -81,3 +81,14 @@
   h2 {
     text-align: center;
   }
+
+  .ham {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  button {
+    border: none;
+  }
