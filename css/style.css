@@ -78,6 +78,11 @@
     border-top: 2px solid #6B0504;
   }
 
+  .footer a {
+    color: blue;
+    text-decoration: underline;
+  }
+
   img {
     size: 100%;
     width: 100%;
